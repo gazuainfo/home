@@ -1,7 +1,6 @@
 # Project dependencies
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules/**
-!node_modules/gatsby/dist/utils/webpack.config.js
+.node_modules/
 .cache/
 # Build directory
 public/
