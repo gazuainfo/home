@@ -4,4 +4,4 @@ var app = express()
 app.use(express.static(__dirname + `/public`))
 console.log("server start");
 
-app.listen(3000)
+app.listen(80)
